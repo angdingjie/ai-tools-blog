@@ -1,0 +1,30 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var b = document.createElement("div");
+  b.id = "read-progress";
+  document.body.prepend(b);
+  window.addEventListener("scroll", function () {
+    var m = document.body.scrollHeight - window.innerHeight;
+    b.style.width = (window.scrollY / m * 100).toFixed(1) + "%";
+  }, { passive: true });
+
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) {
+        e.target.classList.add("visible");
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: "0px 0px -30px 0px" });
+
+  document.querySelectorAll(
+    ".post-entry, .post-content > p, .post-content > h2, " +
+    ".post-content > h3, .post-content > blockquote, " +
+    ".post-content > table, .post-content > pre, .home-info"
+  ).forEach(function (el, i) {
+    el.classList.add("reveal");
+    el.style.transitionDelay = Math.min(i * 0.04, 0.3) + "s";
+    io.observe(el);
+  });
+});
+</script>
