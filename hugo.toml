@@ -1,0 +1,30 @@
+baseURL = "https://blog.hongstack.com/"
+languageCode = "en-us"
+title = "AI Tools & Productivity"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  description = "Practical guides on AI tools for knowledge workers and indie hackers"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+[params.homeInfoParams]
+  Title = "AI Tools & Productivity"
+  Content = "Practical, no-fluff guides to working faster with AI."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/angdingjie"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
