@@ -15,6 +15,7 @@ enableRobotsTXT = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
+  comments = true
 
 [params.homeInfoParams]
   Title = "AI Tools & Productivity"
