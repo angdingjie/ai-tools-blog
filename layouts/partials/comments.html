@@ -1,4 +1,33 @@
-<div id="discourse-comments"></div>
+<style>
+  .comments-section {
+    margin-top: 2rem;
+    border-top: 1px solid var(--tertiary);
+    padding-top: 1.5rem;
+  }
+  .comments-section h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+  }
+  #discourse-comments iframe {
+    border-radius: 8px;
+    background: var(--entry);
+    color-scheme: dark;
+    filter: invert(1) hue-rotate(180deg);
+  }
+  [data-theme="light"] #discourse-comments iframe {
+    filter: none;
+  }
+</style>
+
+<div class="comments-section">
+  <h3>Discussion</h3>
+  <div id="discourse-comments"></div>
+</div>
+
 <script>
   DiscourseEmbed = {
     discourseUrl: 'https://community.hongstack.com/',
