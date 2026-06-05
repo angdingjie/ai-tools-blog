@@ -2,6 +2,7 @@
 title: "Paste MCP Guide: How to Turn Your Clipboard Into AI Memory"
 date: 2026-06-03T08:00:00+08:00
 draft: false
+categories: ["Artificial Intelligence"]
 tags: ["AI tools", "productivity"]
 description: "You copy links, code snippets, research notes, and screenshots dozens of times a day. But your AI tools — Claude, Codex, Cursor — can't see any of it. "
 ---
