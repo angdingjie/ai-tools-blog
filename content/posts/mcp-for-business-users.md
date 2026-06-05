@@ -2,6 +2,7 @@
 title: "MCP for Business Users: What the Model Context Protocol Means for Your AI Tools"
 date: 2026-05-30T08:00:00+08:00
 draft: false
+categories: ["Artificial Intelligence"]
 tags: ["AI tools", "productivity"]
 description: "> **Affiliate Disclosure:** This article contains affiliate links for products we recommend. If you purchase through these links, we may earn a small commi"
 ---
