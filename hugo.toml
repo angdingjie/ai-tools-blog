@@ -31,6 +31,11 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
+    identifier = "community"
+    name = "Community"
+    url = "https://community.hongstack.com"
+    weight = 5
+  [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
