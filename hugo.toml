@@ -4,11 +4,15 @@ title = "AI Tools & Productivity"
 theme = "PaperMod"
 enableRobotsTXT = true
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 [pagination]
   pagerSize = 10
 
 [params]
-  description = "Practical guides on AI tools for knowledge workers and indie hackers"
+  description = "Practical guides on AI tools, market intelligence, and financial news"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -31,3 +35,23 @@ enableRobotsTXT = true
     name = "Posts"
     url = "/posts/"
     weight = 10
+  [[menu.main]]
+    identifier = "ai"
+    name = "Artificial Intelligence"
+    url = "/categories/artificial-intelligence/"
+    weight = 20
+  [[menu.main]]
+    identifier = "financial"
+    name = "Financial News"
+    url = "/categories/financial-news/"
+    weight = 30
+  [[menu.main]]
+    identifier = "technology"
+    name = "Technology"
+    url = "/categories/technology/"
+    weight = 40
+  [[menu.main]]
+    identifier = "categories"
+    name = "All Categories"
+    url = "/categories/"
+    weight = 50
