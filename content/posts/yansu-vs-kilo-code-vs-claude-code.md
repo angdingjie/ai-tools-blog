@@ -2,6 +2,7 @@
 title: "Yansu vs Kilo Code vs Claude Code: The New AI That Does Your Work Category Is Here"
 date: 2026-05-31T08:00:00+08:00
 draft: false
+categories: ["Artificial Intelligence"]
 tags: ["AI tools", "productivity"]
 description: "> **Affiliate Disclosure:** This article contains affiliate links for Kilo Code, which is part of the Kilo Code Partner Program. If you purchase through th"
 ---
