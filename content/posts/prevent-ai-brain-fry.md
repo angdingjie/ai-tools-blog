@@ -2,6 +2,7 @@
 title: "How to Prevent AI Brain Fry: 7 Practical Workflow Strategies That Actually Work"
 date: 2026-05-31T08:00:00+08:00
 draft: false
+categories: ["Artificial Intelligence"]
 tags: ["AI tools", "productivity"]
 description: "You open your laptop. Three AI tools are already running — one generating copy, one writing code, one analyzing data. You bounce between them, checking o"
 ---
