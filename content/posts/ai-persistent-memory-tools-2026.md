@@ -2,6 +2,7 @@
 title: "AI Persistent Memory Cross-App Tools Comparison 2026: Unabyss, Spellar, CogniMemo and the Context Layer Revolution"
 date: 2026-06-01T08:00:00+08:00
 draft: false
+categories: ["Artificial Intelligence"]
 tags: ["AI tools", "productivity"]
 description: "> **Affiliate Disclosure:** This article contains affiliate links for tools we genuinely recommend. If you purchase through these links, we may earn a smal"
 ---
