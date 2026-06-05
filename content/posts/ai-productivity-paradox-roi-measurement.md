@@ -2,6 +2,7 @@
 title: "The AI Productivity Paradox: Why Your $200/Month Tool Stack Is Not Making You Faster"
 date: 2026-06-02T08:00:00+08:00
 draft: false
+categories: ["Artificial Intelligence"]
 tags: ["AI tools", "productivity"]
 description: "> **Affiliate Disclosure:** This article contains links to third-party tools. If you purchase through them, we may earn a commission at no extra cost to yo"
 ---
