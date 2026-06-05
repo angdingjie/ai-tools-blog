@@ -1,6 +1,6 @@
 baseURL = "https://blog.hongstack.com/"
 languageCode = "en-us"
-title = "AI Tools & Productivity"
+title = "Hongstack"
 theme = "PaperMod"
 enableRobotsTXT = true
 
@@ -12,7 +12,7 @@ enableRobotsTXT = true
   pagerSize = 10
 
 [params]
-  description = "Practical guides on AI tools, market intelligence, and financial news"
+  description = "AI tools, financial news, and market intelligence"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -22,8 +22,8 @@ enableRobotsTXT = true
   comments = true
 
 [params.homeInfoParams]
-  Title = "AI Tools & Productivity"
-  Content = "Practical, no-fluff guides to working faster with AI."
+  Title = "Hongstack"
+  Content = "AI tools, market intelligence, and financial news — all in one place."
 
 [[params.socialIcons]]
   name = "github"
