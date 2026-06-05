@@ -216,3 +216,33 @@ body::before {
 ::selection { background: rgba(99,102,241,0.4); color: #fff; }
 
 @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+/* Category nav links - bright pill badges */
+.nav a[href*="/categories/"] {
+  color: #fff !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  background: linear-gradient(135deg, rgba(99,102,241,0.55), rgba(168,85,247,0.45)) !important;
+  border: 1px solid rgba(168,85,247,0.5) !important;
+  padding: 4px 14px !important;
+  border-radius: 50px !important;
+  margin: 0 3px !important;
+  box-shadow: 0 0 10px rgba(99,102,241,0.3) !important;
+  transition: background 0.25s, box-shadow 0.25s, transform 0.2s !important;
+  text-decoration: none !important;
+}
+.nav a[href*="/categories/"]:hover {
+  background: linear-gradient(135deg, var(--a1), var(--a2)) !important;
+  box-shadow: 0 0 22px rgba(99,102,241,0.55) !important;
+  transform: translateY(-2px) !important;
+  color: #fff !important;
+}
+.nav a[href*="/categories/"]::after { display: none !important; }
+
+.nav a[href="/categories/"] {
+  background: linear-gradient(135deg, rgba(34,211,238,0.3), rgba(99,102,241,0.4)) !important;
+  border-color: rgba(34,211,238,0.5) !important;
+}
+.nav a[href="/categories/"]:hover {
+  background: linear-gradient(135deg, var(--a3), var(--a1)) !important;
+}
